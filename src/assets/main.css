@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'F1Bold';
+    src: url('Formula1-Bold_web.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'F1';
+    src: url('Formula1-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap');
+
+:root {
+    --main-colour: #e10600;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: 'F1', Fallback, sans-serif;
+    height: 100%;
+}
+
+.content{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: calc(100% - 40px);
+    height: calc(100% - 80px);
+}
+
+.page-title{
+    float: left;
+    width: 100%;
+    height: 39px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
