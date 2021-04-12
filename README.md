@@ -8,4 +8,5 @@ Yes, it's stored in another repository however due to how the build system in Vu
 
 ## Acknowledgements
 Ergast API for thier brilliant API! - http://ergast.com/mrd/
+
 I have also used some of F1's fonts. I'm happy to remove these however this is not monetised in any way, just a personal project.
